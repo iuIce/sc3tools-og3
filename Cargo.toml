@@ -1,0 +1,18 @@
+[package]
+name = "sc3tools"
+version = "2.4.1"
+authors = ["Committee of Zero"]
+edition = "2018"
+
+[dependencies]
+nom = "6.2"
+rust-embed = "5.9"
+hex = "0.4"
+clap = {version = "4.5.17", features = ["string"]}
+lazy_static = "1.4"
+glob = "0.3"
+termcolor = "1.1"
+itertools = "0.10"
+byteorder = "1.4"
+serde_json = "1.0"
+serde = { version = "1.0.209", features = ["derive"] }
